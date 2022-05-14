@@ -1,8 +1,15 @@
 [package]
-name = "GoNitro-Cli"
+name = "go_nitro"
 version = "0.1.0"
 edition = "2021"
+authors = ["Himanshu Yadav <himanshu4141@gmail.com>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+webbrowser = "0.7.1"
+rocket = "0.4.10"
+reqwest = { version = "0.11.10", features = ["blocking", "json"] }
+serde = "1.0.137"
+serde_json = "1.0.81"
+serde_derive = "1.0.137"
